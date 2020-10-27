@@ -14,7 +14,7 @@ function setup(){
 function star(cx, cy, r){
   beginShape();    // 点つなぎを始める
   for(let i = 0; i < 5; i++){
-    fill(255, 204, 0);
+    fill(255, 241, 0);
     const theta = TWO_PI * i * 2 / 5 - HALF_PI;
     const x = cx + cos(theta) * r;
     const y = cy + sin(theta) * r;
